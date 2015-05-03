@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 urlList = list()
-driver = webdriver.Chrome(executable_path="C:\chrome\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="/Users/shindave/Develop/chromedriver")
 driver.get("http://moz.com/top500/pages")
 time.sleep(5)
 while True:
